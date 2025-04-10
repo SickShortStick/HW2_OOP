@@ -91,6 +91,7 @@ class Appointment:
         self.doctor = doctor
         self.patient = patient
         self.status = 'In queue'
+        self.appointment_time = "None"
 
     def schedule_appointment(self, appointment_time):
         self.appointment_time = appointment_time
